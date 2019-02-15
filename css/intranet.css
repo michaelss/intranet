@@ -14,6 +14,7 @@ h1, h2 {
   .conteudo-menu {
     display: none;
     background-color: hsl(217, 71%, 53%);
+    margin-top: 0.7rem;
   }
   
   .tip-intranet {

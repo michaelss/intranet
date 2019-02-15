@@ -7,7 +7,7 @@
   <title>Intranet</title>
   <link rel="stylesheet" href="css/bulma.min.css" />
   <link rel="stylesheet" href="css/intranet.css" />
-  <link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet" />
+  <!-- <link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet" /> -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 </head>
 
@@ -27,10 +27,9 @@
     </div>
 
     <div id="navbarBasicExample" class="navbar-menu">
-      <!-- <div class="navbar-start">
-      <a class="navbar-item">Home</a>
-      <a class="navbar-item">Documentation</a>
-    </div> -->
+      <div class="navbar-start" style="flex-grow: 2;">
+        <a class="navbar-item" style="flex-grow: 2;"><input class="input is-medium" type="text" placeholder="Pesquise serviços, menus, contatos e documentos" autofocus autocomplete="false" /></a>
+      </div>
 
       <div class="navbar-end">
         <div class="navbar-item"><a class="is-light"><i class="fab fa-facebook-f"></i></a></div>
@@ -87,106 +86,109 @@
     </div>
   </div>
 
-  <section id="pesquisa" class="section container">
-    <div class="field">
-      <label class="label">Pesquisa:</label>
-      <div class="control">
-        <input class="input is-medium" type="text" placeholder="Pesquise serviços, menus, contatos e documentos" autofocus autocomplete="false" />
-      </div>
-    </div>
-    <div class="field is-grouped is-grouped-centered">
-      <p class="control"><a class="button is-link">Pesquisar</a></p>
-      <p class="control"><a class="button is-light">Pesquisar no SEI &nbsp;<small> (requer login)</small></a></p>
-    </div>
-  </section>
+  <div style="width: 100%; background-color: #f4f6f9;">
 
-  <div class="container">
-    <div class="tile is-ancestor">
-      <div class="tile is-parent">
-        <div class="tile is-child box tile1">
-          <a href="#">
-            <p class="title">TRE-TO aprova quatro contas de candidatos não eleitos ao cargo de deputado federal e estadual</p>
-          </a>
-          <p></p>
+    <!-- <section id="pesquisa" class="section container">
+        <div class="field">
+        <label class="label">Pesquisa:</label>
+        <div class="control">
+            <input class="input is-medium" type="text" placeholder="Pesquise serviços, menus, contatos e documentos" autofocus autocomplete="false" />
         </div>
-      </div>
-      <div class="tile is-6 is-vertical is-parent">
-        <div class="tile is-child box tile2">
-          <a href="#">
-            <p class="title">TRE-TO recebe demanda para apoiar a segunda eleição unificada de Conselheiros Tutelares</p>
-          </a>
-          <p></p>
         </div>
-        <div class="tile is-child box">
-          <p class="title">TRE-TO lança projeto Prosa e Café para reuniões rápidas e com praticidade</p>
-          <p></p>
+        <div class="field is-grouped is-grouped-centered">
+        <p class="control"><a class="button is-link">Pesquisar</a></p>
         </div>
-      </div>
-    </div>
-    <a href="#">Mais notícias</a>
-  </div>
+    </section> -->
 
-  <!-- <div class="container">
-    <div class="columns has-text-centered">
-      <div class="column">SGP Web</div>
-      <div class="column">EaD</div>
-      <div class="column">Sessões Plenárias</div>
-      <div class="column">SGQ - Gestão da Qualidade</div>
+    <div class="container">
+        <div class="tile is-ancestor">
+        <div class="tile is-parent">
+            <div class="tile is-child box tile1">
+            <a href="#">
+                <p class="title">TRE-TO aprova quatro contas de candidatos não eleitos ao cargo de deputado federal e estadual</p>
+            </a>
+            <p></p>
+            </div>
+        </div>
+        <div class="tile is-6 is-vertical is-parent">
+            <div class="tile is-child box tile2">
+            <a href="#">
+                <p class="title">TRE-TO recebe demanda para apoiar a segunda eleição unificada de Conselheiros Tutelares</p>
+            </a>
+            <p></p>
+            </div>
+            <div class="tile is-child box">
+            <p class="title">TRE-TO lança projeto Prosa e Café para reuniões rápidas e com praticidade</p>
+            <p></p>
+            </div>
+        </div>
+        </div>
+        <a href="#">Mais notícias</a>
     </div>
-  </div> -->
 
-  <br/>
+    <!-- <div class="container">
+        <div class="columns has-text-centered">
+        <div class="column">SGP Web</div>
+        <div class="column">EaD</div>
+        <div class="column">Sessões Plenárias</div>
+        <div class="column">SGQ - Gestão da Qualidade</div>
+        </div>
+    </div> -->
 
-  <div class="container">
-    <div class="columns">
-      <div class="column">
-        <article class="message is-dark">
-          <div class="message-body">
-            <h2><strong>Aniversários</strong></h2>
-            <ul>
-              <li>Fulano</li>
-              <li>Ciclano</li>
-            </ul>
-          </div>
-        </article>
-      </div>
-      <div class="column">
-        <nav class="level">
-          <div class="level-item has-text-centered">
-            <div>
-              <a href="#">
-                <p class="heading">SGP Web</p>
-                <p class="title"><i class="fas fa-users"></i></p>
-              </a>
+    <br/>
+
+    <div class="container">
+        <div class="columns">
+        <div class="column">
+            <article class="message is-dark">
+            <div class="message-body">
+                <h2><strong>Aniversários</strong></h2>
+                <ul>
+                <li>Fulano</li>
+                <li>Ciclano</li>
+                </ul>
             </div>
-          </div>
-          <div class="level-item has-text-centered">
-            <div>
-              <a href="#">
-                <p class="heading">EaD</p>
-                <p class="title"><i class="fas fa-graduation-cap"></i></p>
-              </a>
+            </article>
+        </div>
+        <div class="column">
+            <nav class="level">
+            <div class="level-item has-text-centered">
+                <div>
+                <a href="#">
+                    <p class="heading">SGP Web</p>
+                    <p class="title"><i class="fas fa-users"></i></p>
+                </a>
+                </div>
             </div>
-          </div>
-          <div class="level-item has-text-centered">
-            <div>
-              <a href="#">
-                <p class="heading">Sessões Plenárias</p>
-                <p class="title"><i class="fas fa-tv"></i></p>
-              </a>
+            <div class="level-item has-text-centered">
+                <div>
+                <a href="#">
+                    <p class="heading">EaD</p>
+                    <p class="title"><i class="fas fa-graduation-cap"></i></p>
+                </a>
+                </div>
             </div>
-          </div>
-          <div class="level-item has-text-centered">
-            <div>
-              <a href="#">
-                <p class="heading">SGQ</p>
-                <p class="title"><i class="fas fa-medal"></i></p>
-              </a>
+            <div class="level-item has-text-centered">
+                <div>
+                <a href="#">
+                    <p class="heading">Sessões Plenárias</p>
+                    <p class="title"><i class="fas fa-tv"></i></p>
+                </a>
+                </div>
             </div>
-          </div>
-        </nav>
-      </div>
+            <div class="level-item has-text-centered">
+                <div>
+                <a href="#">
+                    <p class="heading">SGQ</p>
+                    <p class="title"><i class="fas fa-medal"></i></p>
+                </a>
+                </div>
+            </div>
+            </nav>
+        </div>
+        </div>
     </div>
+
   </div>
 
   <br/>
