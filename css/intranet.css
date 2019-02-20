@@ -14,7 +14,10 @@ h1, h2 {
   .conteudo-menu {
     display: none;
     background-color: hsl(217, 71%, 53%);
-    margin-top: 0.7rem;
+    margin-top: -0.7rem;
+    position: absolute;
+    width: 100%;
+    z-index: 10;
   }
   
   .tip-intranet {
