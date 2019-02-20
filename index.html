@@ -28,7 +28,7 @@
 
     <div id="navbarBasicExample" class="navbar-menu">
       <div class="navbar-start" style="flex-grow: 2;">
-        <a class="navbar-item" style="flex-grow: 2;"><input class="input is-medium" type="text" placeholder="Pesquise serviços, menus, contatos e documentos" autofocus autocomplete="false" /></a>
+        <div class="navbar-item" style="flex-grow: 2;"><input class="input is-medium" type="text" placeholder="Pesquise serviços, menus, contatos e documentos" autofocus autocomplete="false" /></div>
       </div>
 
       <div class="navbar-end">
@@ -58,32 +58,36 @@
     </div>
   </nav>
 
-  <div class="tabs is-centered" style="margin-bottom: 0.7rem;">
+  <div class="tabs is-centered">
     <ul>
-      <li class="item-menu" data-menu="i"><a>Institucional</a></li>
-      <li class="item-menu" data-menu="j"><a>Judiciário</a></li>
+      <li class="item-menu" data-menu="i">
+        <a>Institucional</a>
+        <div id="i" class="conteudo-menu">
+          <div class="container">
+            <div class="columns">
+              <div class="column">First column</div>
+              <div class="column">Second column</div>
+              <div class="column">Third column</div>
+              <div class="column">Fourth column</div>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li class="item-menu" data-menu="j">
+        <a>Judiciário</a>
+        <div id="j" class="conteudo-menu">
+          <div class="container">
+            <div class="columns">
+              <div class="column">Jurisprudencia</div>
+              <div class="column">Second column</div>
+            </div>
+          </div>
+        </div>
+      </li>
       <li class="item-menu" data-menu="e"><a>Eleições</a></li>
       <li class="item-menu" data-menu="s"><a>Serviços</a></li>
       <li class="item-menu" data-menu="s2"><a>Servidores</a></li>
     </ul>
-  </div>
-  <section id="i" class="conteudo-menu">
-    <!-- <div class="container"> -->
-      <div class="columns">
-        <div class="column">First column</div>
-        <div class="column">Second column</div>
-        <div class="column">Third column</div>
-        <div class="column">Fourth column</div>
-      </div>
-    <!-- </div> -->
-    </section>
-  <div id="j" class="conteudo-menu">
-    <div class="container">
-      <div class="columns">
-        <div class="column">Jurisprudencia</div>
-        <div class="column">Second column</div>
-      </div>
-    </div>
   </div>
 
   <div style="width: 100%; background-color: #f4f6f9;">
