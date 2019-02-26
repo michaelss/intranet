@@ -1,7 +1,8 @@
 @charset "utf-8";
 
 // Import a Google Font
-// @import url('https://fonts.googleapis.com/css?family=Nunito:400,700');
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,700');
+@import url('https://fonts.googleapis.com/css?family=Satisfy:400,700');
 
 // // Set your brand colors
 // $purple: #8A4D76;
@@ -45,93 +46,104 @@
 // @import "../node_modules/bulma/sass/layout/footer.sass";
 
 * {
-    font-family: 'Nunito', sans-serif;
-  }
-  
-  h1, h2 {
-      font-family: Lato;
-  }
-  
-  .tile1 .title, .tile2 .title {
-    color: white;
-  }
-  
-  .footer {
-    background-color: hsl(0, 0%, 21%);
-    color: #FFF;
-  }
-  
-  .tabs i {
-    margin-left: 0.2rem;
-  }
-  
-  .navbar {
-    border-top: 3px hsl(217, 71%, 53%) solid;
-  }
-  
-  .conteudo-menu {
-    display: none;
-    background-color: hsl(217, 71%, 53%);
-    /* margin-top: 0.7rem; */
-    position: absolute;
-    left: 0;
-    width: 100%;
-    z-index: 10;
-    box-shadow: 0px 2px 3px gray;
-    color: #FFF;
-  }
-  
-  /* .item-menu:hover > .conteudo-menu, .item-menu:hover,  */
-  .item-menu:focus-within > .conteudo-menu, .item-menu:focus-within {
-    display: block;
-    background-color: hsl(217, 71%, 53%);
-  }
-  
-  /* .item-menu:hover > a,  */
-  .item-menu:focus-within > a {
-    color: #FFF;
-  }
-  
-  .tip-intranet {
-    font-family: 'Satisfy', cursive;
-  }
-  
-  .tabs {
-    margin-bottom: 0rem !important;
-    padding-top: 10px;
-  }
-  
-  input[type="text"] {
-      /* width: 600px; */
-  /*     height: 20px; */
-    padding-right: 50px;
-    background-color: #eceff3;
-    border-color: #FFF;
-    box-shadow: none;
-  }
-  
-  input[type="submit"] {
-    margin-left: -50px;
-    height: 25px;
-    width: 50px;
-    background: blue;
-    color: white;
-    border: 0;
-    -webkit-appearance: none;
-  }
-  
-  .tile .is-child {
-    text-shadow: 2px 2px 3px #000;
-    background-position: center center;
-    display: flex;
-  }
-  .tile .is-child > a {
-    align-self: flex-end;
-  }
-  .tile1 {
-    background-image: linear-gradient(rgba(255,0,0,0), rgb(128, 128, 133)), url('./fotos/foto1.jpg');
-  }
-  
-  .tile2 {
-    background-image: linear-gradient(rgba(255,0,0,0), rgb(128, 128, 133)), url('./fotos/foto2.jpg');
-  }
+  font-family: 'Nunito', sans-serif;
+} 
+
+.tile1 .title, .tile2 .title {
+  color: white;
+}
+
+.footer {
+  background-color: hsl(0, 0%, 21%);
+  color: #FFF;
+}
+
+.tabs i {
+  margin-left: 0.2rem;
+}
+
+.navbar {
+  border-top: 3px hsl(217, 71%, 53%) solid;
+}
+
+.conteudo-menu {
+  display: none;
+  background-color: hsl(217, 71%, 53%);
+  /* margin-top: 0.7rem; */
+  position: absolute;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+  box-shadow: 0px 2px 3px gray;
+  color: #FFF;
+}
+
+.conteudo-menu li {
+  color: #FFF;
+  line-height: 2rem;
+  cursor: pointer;
+}
+
+.conteudo-menu h2 {
+  font-weight: bold;
+  padding-top: 1.5rem;
+}
+
+.conteudo-menu ul, .conteudo-menu a {
+  all: unset;
+}
+
+.item-menu:hover > .conteudo-menu, .item-menu:hover, 
+.item-menu:focus-within > .conteudo-menu, .item-menu:focus-within {
+  display: block;
+  background-color: hsl(217, 71%, 53%);
+}
+
+.item-menu:hover > a,
+.item-menu:focus-within > a {
+  color: #FFF;
+}
+
+.tip-intranet {
+  font-family: 'Satisfy', cursive;
+}
+
+.tabs {
+  margin-bottom: 0rem !important;
+  padding-top: 10px;
+}
+
+input[type="text"] {
+    /* width: 600px; */
+/*     height: 20px; */
+  padding-right: 50px;
+  background-color: #eceff3;
+  border-color: #FFF;
+  box-shadow: none;
+}
+
+input[type="submit"] {
+  margin-left: -50px;
+  height: 25px;
+  width: 50px;
+  background: blue;
+  color: white;
+  border: 0;
+  -webkit-appearance: none;
+}
+
+.tile .is-child {
+  text-shadow: 2px 2px 3px #000;
+  background-position: center center;
+  display: flex;
+}
+.tile .is-child > a {
+  align-self: flex-end;
+}
+.tile1 {
+  background-image: linear-gradient(rgba(255,0,0,0), rgb(128, 128, 133)), url('./fotos/foto1.jpg');
+}
+
+.tile2 {
+  background-image: linear-gradient(rgba(255,0,0,0), rgb(128, 128, 133)), url('./fotos/foto2.jpg');
+}
