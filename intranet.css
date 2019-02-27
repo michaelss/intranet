@@ -1,4 +1,4 @@
-@keyframes spinAround {
+@import url(https://fonts.googleapis.com/css?family=Nunito:400,700);@import url(https://fonts.googleapis.com/css?family=Satisfy:400,700);@keyframes spinAround {
   from {
     transform: rotate(0deg); }
   to {
@@ -6928,8 +6928,10 @@ label.panel-block {
 * {
   font-family: 'Nunito', sans-serif; }
 
-h1, h2 {
-  font-family: Lato; }
+#area-central {
+  width: 100%;
+  background-color: #f5f5f5;
+  padding-top: 30px; }
 
 .tile1 .title, .tile2 .title {
   color: white; }
@@ -6942,11 +6944,11 @@ h1, h2 {
   margin-left: 0.2rem; }
 
 .navbar {
-  border-top: 3px #3273dc solid; }
+  border-top: 3px #327FC7 solid; }
 
 .conteudo-menu {
   display: none;
-  background-color: #3273dc;
+  background-color: #327FC7;
   /* margin-top: 0.7rem; */
   position: absolute;
   left: 0;
@@ -6955,12 +6957,24 @@ h1, h2 {
   box-shadow: 0px 2px 3px gray;
   color: #FFF; }
 
-/* .item-menu:hover > .conteudo-menu, .item-menu:hover,  */
+.conteudo-menu li {
+  color: #FFF;
+  line-height: 2rem;
+  cursor: pointer; }
+
+.conteudo-menu h2 {
+  font-weight: bold;
+  padding-top: 1.5rem; }
+
+.conteudo-menu ul, .conteudo-menu a {
+  all: unset; }
+
+.item-menu:hover > .conteudo-menu, .item-menu:hover,
 .item-menu:focus-within > .conteudo-menu, .item-menu:focus-within {
   display: block;
-  background-color: #3273dc; }
+  background-color: #327FC7; }
 
-/* .item-menu:hover > a,  */
+.item-menu:hover > a,
 .item-menu:focus-within > a {
   color: #FFF; }
 
