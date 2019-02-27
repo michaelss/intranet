@@ -1,6 +1,7 @@
 import './intranet.scss'
 import 'jquery'
 import './logo.png'
+import './js/busca'
 
 import { library, dom } from "@fortawesome/fontawesome-svg-core";
 import { faTwitter } from "@fortawesome/free-brands-svg-icons/faTwitter";

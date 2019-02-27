@@ -26,7 +26,9 @@
 
     <div id="navbarBasicExample" class="navbar-menu">
       <div class="navbar-start" style="flex-grow: 2;">
-        <div class="navbar-item" style="flex-grow: 2;"><input class="input is-medium" type="text" placeholder="Pesquise serviços, menus, contatos e documentos" autofocus autocomplete="false" /></div>
+        <div class="navbar-item" id="busca" style="flex-grow: 2;">
+          <input class="input is-medium typeahead" type="text" placeholder="Pesquise serviços, menus, contatos e documentos" autofocus autocomplete="false" />
+        </div>
       </div>
 
       <div class="navbar-end">
@@ -262,18 +264,20 @@
   <br/>
 
   <footer class="footer">
-    <div class="content has-text-right">
+    <div class="content">
       <div class="columns">
-        <div class="column is-half">
+        <div class="column is-half has-text-right">
           Av. Teotônio Segurado, Quadra 202 Norte, Conjunto 01, Lotes 01 e 02
           <br/> Palmas-TO - 77006-214
           <br/> CNPJ 05.789.902/0001-72
         </div>
         <div class="column">
-          Third column
-        </div>
-        <div class="column">
-          Third column
+          <div>
+            <a href="http://www.tre-to.jus.br/eleitor/zonas-eleitorais/copy_of_zonas-eleitorais">Zonas Eleitorais</a>
+          </div>
+          <div>
+            <a href="http://intranet.tre-to.jus.br/portal/institucional/endereco/sede.php">Endereços dos anexos e Central de Urnas</a>
+          </div>
         </div>
       </div>
     </div>
