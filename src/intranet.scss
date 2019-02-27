@@ -45,9 +45,18 @@
 // @import "../node_modules/bulma/sass/grid/tiles.sass";
 // @import "../node_modules/bulma/sass/layout/footer.sass";
 
+$azul: #327FC7;
+// $azul: hsl(217, 71%, 53%);
+
 * {
   font-family: 'Nunito', sans-serif;
 } 
+
+#area-central {
+  width: 100%;
+  background-color: #f5f5f5; 
+  padding-top: 30px;
+}
 
 .tile1 .title, .tile2 .title {
   color: white;
@@ -63,12 +72,12 @@
 }
 
 .navbar {
-  border-top: 3px hsl(217, 71%, 53%) solid;
+  border-top: 3px $azul solid;
 }
 
 .conteudo-menu {
   display: none;
-  background-color: hsl(217, 71%, 53%);
+  background-color: $azul;
   /* margin-top: 0.7rem; */
   position: absolute;
   left: 0;
@@ -96,7 +105,7 @@
 .item-menu:hover > .conteudo-menu, .item-menu:hover, 
 .item-menu:focus-within > .conteudo-menu, .item-menu:focus-within {
   display: block;
-  background-color: hsl(217, 71%, 53%);
+  background-color: $azul;
 }
 
 .item-menu:hover > a,
